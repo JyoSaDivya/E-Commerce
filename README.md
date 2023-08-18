@@ -75,3 +75,15 @@ Build ECommerce Website Like Amazon by Next.js
     3. use dynamic from nextjs
     4. use context to get cart items
     5. list items in cart items
+17. Use Dynamic Import In Cart Screen
+    1. Use next/dynamic
+    2. Wrap cart in dynamic with out ssr
+18. Update Remove Items In Cart
+    1. Implement onChange for Select
+    2. Show notification by notistack
+    3. implement delete button handler
+19. Create Login Screen
+    1. create form
+    2. add email and password field
+    3. add login button
+    4. style form

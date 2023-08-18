@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@material-ui/core": "^4.12.4",
+    "axios": "^0.21.1",
     "eslint": "8.46.0",
     "eslint-config-next": "13.4.13",
     "js-cookie": "^2.2.1",

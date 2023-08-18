@@ -60,3 +60,18 @@ Build ECommerce Website Like Amazon by Next.js
     2. seed sample data
     3. create /api/products/index.js
     4. create product api
+14. Fetch Products From API
+    1. use getServerSideProps()
+    2. get product from db
+    3. return data as props
+    4. use it in product screen too
+15. Implement Add to cart
+    1. define cart in context
+    2. dispatch add to cart action
+    3. set click event handler for button
+16. Create Cart Screen
+    1. create cart.js
+    2. redirect to cart screen
+    3. use dynamic from nextjs
+    4. use context to get cart items
+    5. list items in cart items

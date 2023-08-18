@@ -87,3 +87,6 @@ Build ECommerce Website Like Amazon by Next.js
     2. add email and password field
     3. add login button
     4. style form
+20. Create Sample Users
+    1. create user model
+    2. add sample user in seed api

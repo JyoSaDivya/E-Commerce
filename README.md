@@ -90,3 +90,15 @@ Build ECommerce Website Like Amazon by Next.js
 20. Create Sample Users
     1. create user model
     2. add sample user in seed api
+21. Build Login API
+22. use jsonwebtoken to sign token
+23. implement login api
+24. Complete Login Page
+    1. handle form submission
+    2. add userInfo to context
+    3. save userInfo in cookies
+    4. show user name in nav bar using menu
+25. Create Register Page
+    1. create form
+    2. implement backend api
+    3. redirect user to redirect page

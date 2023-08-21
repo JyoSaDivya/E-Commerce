@@ -1,5 +1,6 @@
 import mongoose from 'mongoose';
-
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, './.env') });
 const connection = {};
 
 async function connect() {
@@ -21,6 +22,7 @@ async function connect() {
     //useUnifiedTopology: true,
     //useCreateIndex: true,
   );
+  console.log(process.env.MONGODB_URI);
   //console.log('new connection');
   //connection.isConnected = db.connections[1].readyState;
 }

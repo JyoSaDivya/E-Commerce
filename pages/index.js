@@ -16,6 +16,8 @@ import axios from 'axios';
 import { useRouter } from 'next/router';
 import { useContext } from 'react';
 import { Store } from '../utils/Store';
+const path = require('path');
+require('dotenv').config({ path: path.resolve(__dirname, './.env') });
 export default function Home(props) {
   const { products } = props;
   const router = useRouter();

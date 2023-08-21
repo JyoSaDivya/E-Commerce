@@ -9,9 +9,6 @@ const initialState = {
       ? JSON.parse(Cookies.get('cartItems'))
       : [],
   },
-  userInfo: Cookies.get('userInfo')
-    ? JSON.parse(Cookies.get('userInfo'))
-    : null,
 };
 
 function reducer(state, action) {

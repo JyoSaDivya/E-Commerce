@@ -79,26 +79,27 @@ Build ECommerce Website Like Amazon by Next.js
     1. Use next/dynamic
     2. Wrap cart in dynamic with out ssr
 18. Update Remove Items In Cart
+
     1. Implement onChange for Select
     2. Show notification by notistack
     3. implement delete button handler
-19. Create Login Screen
+20. Create Login Screen
     1. create form
     2. add email and password field
     3. add login button
     4. style form
-20. Create Sample Users
+21. Create Sample Users
     1. create user model
     2. add sample user in seed api
-21. Build Login API
-22. use jsonwebtoken to sign token
-23. implement login api
-24. Complete Login Page
+22. Build Login API
+23. use jsonwebtoken to sign token
+24. implement login api
+25. Complete Login Page
     1. handle form submission
     2. add userInfo to context
     3. save userInfo in cookies
     4. show user name in nav bar using menu
-25. Create Register Page
+26. Create Register Page
     1. create form
     2. implement backend api
     3. redirect user to redirect page
